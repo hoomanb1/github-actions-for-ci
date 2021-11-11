@@ -3,6 +3,6 @@ name: Team awesome's approval workflow
 on: pull_request_review
 
 jobs:
-  adding_label:
+  labelWhenApproved:
     name: Adding label to any pull requests after a preset number of approvals
     runs-on: ubuntu-latest
